@@ -1,0 +1,52 @@
+
+
+.toplist {
+    padding: .1rem;
+    background: #f4f4f4;
+}
+
+.toplist ul li {
+    margin-bottom: .1rem;
+    display: flex;
+    
+}
+.toplist ul li a {
+    display: block;
+
+}
+.toplist ul li .topic {
+    width: 100%;
+    -webkit-box-flex: 1;
+    padding: .02rem .1rem .02rem .15rem;
+    overflow: hidden;
+    background: #fff;
+}
+
+.toplist ul li .topic h3 {
+    /*width: 1.75rem;*/
+    /*width: 100%;*/
+    font-size: .18rem;
+    color: #000;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: .05rem;
+}
+.toplist ul li .topic p {
+    line-height: .19rem;
+    color: #999;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin-bottom: .05rem;
+}
+.toplist ul li .topic p span {
+    color: #333;
+    margin: 0 .05rem;
+}
+
+.toplist .topic-more {
+    height: .4rem;
+    line-height: .4rem;
+    text-align: center;
+}

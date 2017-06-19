@@ -1,0 +1,141 @@
+    .content {
+        background-color: #eee;    
+    }
+    
+    .slider {
+        height: 1.28rem;
+        margin-bottom: .14rem;
+    }
+
+    .slider .mint-swipe-item img {
+        height: 100%;
+    }
+    .mint-swipe-indicators {
+        bottom: 6px;
+    }
+    .mint-swipe-indicator {
+        width: .06rem;
+        height: .06rem;
+        background: rgba(144,144,144,.8);
+    }
+    .mint-swipe-indicator.is-active {
+        background: #fff;
+    }
+
+
+    .mod-list {
+        margin: 0 .1rem;
+        
+    }
+    .mod-list h2 {
+        font-size: .16rem;
+        color: #000;
+        margin-bottom: .11rem;
+        /*padding: .04rem 0;*/
+        line-height: .24rem;
+    }
+    .mod-list .list {
+        display: flex;
+        margin-right: -.08rem;
+    }
+    .mod-list .list li {
+        flex: 1;
+        padding-right: .08rem;
+        margin-bottom: .1rem;
+        position: relative;
+    }
+    .mod-list .list li span {
+        position: absolute;
+        width: .24rem;
+        height: .24rem;
+        right: .15rem;
+        top: 1.15rem;
+        background: url(../images/list_sprite.png) no-repeat;
+        background-size: .24rem .6rem;
+    }
+    .mod-list .list li img {
+        width: 1.46rem;
+        height: 1.46rem;
+    }
+    .mod-list .list li h3 {
+        height: .36rem;
+        background-color: #fff;
+        padding: 0 .07rem .05rem;
+        text-align: center;
+        line-height: .3rem;
+    }
+
+    .list-special .list {
+        flex-wrap: wrap;
+    }
+    .list-special .list li {
+        width: 50%;
+        position: relative;
+    }
+
+    .list-special .list li em {
+        position: absolute;
+        display: block;
+        font-style: normal;
+        left: .1rem;
+        top: 1.25rem;
+        color: #fff;
+        font-size: .12rem;
+        
+    }
+    .list-special .list li em i {
+        display: inline-block;
+        width: .1rem;
+        height: .1rem;
+        background: url(../images/list_sprite.png) no-repeat 0 -.5rem ;
+        background-size: .24rem .6rem;
+    }
+
+    .list-special .list li .list-info {
+        padding: 0 .07rem .05rem;
+        background: #fff;
+    }
+    .list-special .list li .list-info h4 {
+        width: 1.3rem;
+        line-height: .2rem;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .content> p {
+        height: .4rem;
+        line-height: .4rem;
+        text-align: center;
+        color: rgba(144,144,144,.8)
+    }
+
+
+    .footer {
+        padding: .15rem 0;
+    }
+    .footer .version-tab {
+        margin-bottom: .16rem;
+        text-align: center;
+    }
+    .footer .version-tab a {
+        display: inline-block;
+        height: .14rem;
+        line-height: .14rem;
+        color: #000;
+    }
+
+    .footer .footer-logo {
+        text-indent: -99999px;
+        background: url(../images/logo_footer.png) no-repeat;
+        width: .82rem;
+        height: .24rem;
+        margin: 0 auto 10px;
+        background-size: cover;
+    }
+    .footer>p {
+        font-size: .12rem;
+        color: rgba(144,144,144,.5);
+        text-align: center;
+        line-height: .18rem;
+    }

@@ -1,0 +1,44 @@
+
+header {
+    height: .44rem;
+    background-color: #31c27c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header i {
+    display: block;
+    width: .9rem;
+    height: .25rem;
+    background: url(../images/logo.png) no-repeat;
+    background-size: cover;
+    text-indent: -9999px;
+    margin-left: .1rem;
+}
+
+header .btn {
+    color: #fff;
+    height: .28rem;
+    line-height: .28rem;
+    padding: 0 .12rem;
+    background: #149c5a;
+    border-radius: .99rem;
+    margin-right: .1rem;
+}
+
+.table {
+    height: .4rem;
+    font-size: .16rem;
+    text-align: center;
+    display: flex;
+}
+
+.table a {
+    flex:1;
+    line-height: .4rem;
+    color: rgba(0,0,0,.6);
+}
+.table a.router-link-active {
+    color: #31c27c;
+    border-bottom: .02rem solid #31c27c;
+}
