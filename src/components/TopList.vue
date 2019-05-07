@@ -1,11 +1,11 @@
 <template>
     <div class='toplist'>
         <ul>
-            <li v-for='item in data'>
+            <li v-for='(item,index) in data' :key="index">
                 <a><img :src='item.picUrl' alt='' style='display:block' height='100' width='100'/></a>
                 <div class='topic'>
                     <h3>{{item.topTitle}}</h3>
-                    <p v-for='(i, key) in item.songList'>
+                    <p v-for='(i, key) in item.songList' :key="key">
                         {{key+1}}  
                         <span>{{i.songname}}</span>
                         - {{i.singername}}
